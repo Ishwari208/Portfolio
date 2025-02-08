@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../assets/image2.jpg"
+import stopwatch from "../assets/stopwatch.jpg"
 function Portfolio() {
   const projects = [
     {
@@ -11,7 +12,7 @@ function Portfolio() {
     {
       title: "Project 2: Tic-Tac-Toe Game",
       description: "A classic Tic-Tac-Toe game built using JavaScript and React.",
-      img: "https://via.placeholder.com/300",
+      img: stopwatch,
       link: "https://github.com/yourusername/tic-tac-toe",
     },
     {
